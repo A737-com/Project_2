@@ -3,6 +3,7 @@ ul {
   list-style: none;
   text-align: center;
   padding: 0;
+  margin: 0;
   background-color: #004080;
 }
 ul li {
@@ -21,32 +22,39 @@ ul li a.active {
   border-radius: 5px;
 }
 
-/* 5 style elements for Home Page */
+/* 5 style elements */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f4f8;
+  background-color: #f8f9fa;
   color: #333;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 h1 {
-  font-size: 2.5rem;
-  color: #004080;
   text-align: center;
+  font-size: 2.5rem;
+  margin-top: 1em;
+  color: #004080;
 }
 
 h2 {
   font-size: 2rem;
-  color: #0073e6;
+  color: #0059b3;
   margin-top: 2em;
+  text-align: center;
 }
 
 p {
-  font-size: 1rem;
-  margin: 1em auto;
   max-width: 70%;
+  margin: 1em auto;
+  font-size: 1rem;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5em;
 }
 
 img, video {

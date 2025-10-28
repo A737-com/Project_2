@@ -3,6 +3,7 @@ ul {
   list-style: none;
   text-align: center;
   padding: 0;
+  margin: 0;
   background-color: #004080;
 }
 ul li {
@@ -21,38 +22,44 @@ ul li a.active {
   border-radius: 5px;
 }
 
-/* 5 style elements for Page3 */
+/* 5 style elements */
 body {
   font-family: Verdana, Geneva, sans-serif;
-  background-color: #e6f2ff;
+  background-color: #f8f9fa;
   color: #222;
-  line-height: 1.6;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-top: 1em;
 }
 
 h1 {
   font-size: 2.5rem;
   color: #004080;
-  text-align: center;
 }
 
 h2 {
   font-size: 2rem;
-  color: #0066cc;
+  color: #0059b3;
   margin-top: 1.5em;
 }
 
 ul li {
-  margin-bottom: 0.8em;
   font-size: 1rem;
+  margin: 0.5em auto;
+  max-width: 70%;
 }
 
 img {
   display: block;
   margin: 1em auto;
-  border-radius: 8px;
-  max-width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 5px;
 }
 
 footer {
