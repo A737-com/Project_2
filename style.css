@@ -9,7 +9,7 @@ body {
 
 /* Navigation Bar */
 .nav {
-  background-color: #004080;
+  background-color: #ef0303;
   overflow: hidden;
   list-style-type: none;
   margin: 0;
@@ -31,12 +31,12 @@ body {
 
 .nav li a:hover,
 .nav li a.active {
-  background-color: #0073e6;
+  background-color: #ff0000;
 }
 
 /* Headings */
 h1, h2 {
-  color: #004080;
+  color: #ff0000;
   margin-left: 20px;
 }
 
@@ -49,16 +49,21 @@ p, ul {
 /* Footer */
 footer {
   text-align: center;
-  background-color: #004080;
+  background-color: #ff0000;
   color: white;
   padding: 10px 0;
   margin-top: 40px;
 }
 
-/* Image styling */
+/* Image styling - left aligned by default */
 img {
   display: block;
-  margin: 20px auto;
+  margin: 20px 0 20px 20px; /* top right bottom left */
   border-radius: 8px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Last page image - centered */
+img.center-image {
+  margin: 20px auto; /* centers horizontally */
 }
