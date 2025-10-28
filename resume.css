@@ -1,0 +1,65 @@
+/* Navigation styling (does not count toward 5 elements) */
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  background-color: #004080;
+}
+ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+ul li a:hover,
+ul li a.active {
+  background-color: #0073e6;
+  border-radius: 5px;
+}
+
+/* 5 style elements for Resume Page */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #003366;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0059b3;
+  margin-top: 1.5em;
+}
+
+ul li {
+  margin: 0.5em 0;
+  font-size: 1rem;
+}
+
+img {
+  display: block;
+  margin: 1em auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  max-width: 60%;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #004080;
+  color: white;
+  margin-top: 2em;
+}

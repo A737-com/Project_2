@@ -1,0 +1,66 @@
+/* Navigation styling (does not count toward 5 elements) */
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  background-color: #004080;
+}
+ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+ul li a:hover,
+ul li a.active {
+  background-color: #0073e6;
+  border-radius: 5px;
+}
+
+/* 5 style elements for Home Page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #004080;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0073e6;
+  margin-top: 2em;
+}
+
+p {
+  font-size: 1rem;
+  margin: 1em auto;
+  max-width: 70%;
+}
+
+img, video {
+  display: block;
+  margin: 1em auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #004080;
+  color: white;
+  margin-top: 2em;
+}

@@ -1,0 +1,64 @@
+/* Navigation styling (does not count toward 5 elements) */
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  background-color: #004080;
+}
+ul li {
+  display: inline-block;
+  margin: 0 1em;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+ul li a:hover,
+ul li a.active {
+  background-color: #0073e6;
+  border-radius: 5px;
+}
+
+/* 5 style elements for Page3 */
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  background-color: #e6f2ff;
+  color: #222;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #004080;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0066cc;
+  margin-top: 1.5em;
+}
+
+ul li {
+  margin-bottom: 0.8em;
+  font-size: 1rem;
+}
+
+img {
+  display: block;
+  margin: 1em auto;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  background-color: #004080;
+  color: white;
+  margin-top: 2em;
+}
